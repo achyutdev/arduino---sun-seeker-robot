@@ -1,6 +1,12 @@
 Arduino---Sun-Seeker-Robot
 =========================
 This programming script is for robotic body that carry solar pannel and move its pannel toward the direction of light  in order to absorpt more amount of solar energy. This Robot has two light sensor which is kept at the edge of panel. Both sensor detect light only when panel is perpandicular to light of sun. There are three condition:
+```arduino
+void stop_right_there();
+void move_forward_searching_light();
+void rotate_in_dir_of_light();
+
+```
 
 ####1. Both sensor detect light
 when both sensor detect light it `stop_right_there`.
